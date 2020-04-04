@@ -14,3 +14,14 @@ def index(request, id):
 
 # def index(request):
 #     return HttpResponse("Hello, world. You're at the polls index.")
+
+#クラスを用いてviews.pyを反映されることができる
+from django.views.generic import TemplateView
+
+class SampleTemplateView(TemplateView):
+    templete_name = "index.html"
+
+    def get_context_data(self, **kwargs):
+        content = super().get_context_data(**kwargs) #はじめに継承元のメソッドを呼び出す
+        content["poll"] = "bar"
+        return content
