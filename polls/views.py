@@ -5,6 +5,8 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 
+from django.urls import reverse
+
 
 def kumasan(request):  # ここで書いているrequestは何？
     return HttpResponse("いつもお疲れさまです")
@@ -12,16 +14,20 @@ def kumasan(request):  # ここで書いているrequestは何？
 def index(request, id):
     return HttpResponse("最強くまさん" + kumasan(id))
 
+def unko(request):
+    urlName = reverse("unko") #上でリバースを使っている
+    return HttpResponse("ello, world. You're at the polls index.{0}")
+
 # def index(request):
 #     return HttpResponse("Hello, world. You're at the polls index.")
 
-#クラスを用いてviews.pyを反映されることができる
-from django.views.generic import TemplateView
+# #クラスを用いてviews.pyを反映されることができる
+# from django.views.generic import TemplateView
 
-class SampleTemplateView(TemplateView):
-    templete_name = "index.html"
+# class SampleTemplateView(TemplateView):
+#     templete_name = "index.html"
 
-    def get_context_data(self, **kwargs):
-        content = super().get_context_data(**kwargs) #はじめに継承元のメソッドを呼び出す
-        content["poll"] = "bar"
-        return content
+#     def get_context_data(self, **kwargs):
+#         content = super().get_context_data(**kwargs) #はじめに継承元のメソッドを呼び出す
+#         content["poll"] = "bar"
+#         return content

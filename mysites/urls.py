@@ -17,10 +17,10 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
-from polls.views import SampleTemplateView
+# from polls.views import SampleTemplateView
 
-urlpatterns = {
+urlpatterns = [
     url(r'^polls/kumasam/', include('polls.urls')), #polls/kumasan/urls.pyを参照しろという意味
-    url(r'^admin/', admin.site.urls),  # 管理者画面でのurlとなる
-    url(r'^sample$', SampleTemplateView.as_view())
-}
+    url(r'^admin/', admin.site.urls)  # 管理者画面でのurlとなる
+    # url(r'^sample$', SampleTemplateView.as_view())
+]
