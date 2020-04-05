@@ -21,6 +21,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^polls/kumasam/', include('polls.urls')), #polls/kumasan/urls.pyを参照しろという意味
-    url(r'^admin/', admin.site.urls)  # 管理者画面でのurlとなる
+    url(r'^admin/', admin.site.urls),  # 管理者画面でのurlとなる
     # url(r'^sample$', SampleTemplateView.as_view())
 ]
