@@ -1,0 +1,21 @@
+{% comment %} {% if latest_question_list %}
+    <ul>
+    {% for question in latest_question_list %}
+        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %} {% endcomment %}
+
+{{ question }}
+
+<h1>{{ question.question_text}}</h1>
+<ul>
+{% for choice in question.choice_set.all%} 
+{% comment %} メソッドの呼び出しは {% for %} ループの中で行われ {% endcomment %}
+{% comment %} <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li> {% endcomment %}
+<li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+    <li>{{choice.choice_text}}</li>
+{%endfor%}
+</ul>
