@@ -9,7 +9,7 @@ app_name = 'polls'
 # 「同じようなデザインで内容が変わるページ（動的ページ）」を扱うのに適した仕組み
 
 urlpatterns = [  # urlのパターンの入力
-    path('', views.kumasan, name='kumasan'),  # viewsはここで通している
+    path('', views.IndexView.as_view(), name='kumasan'),  # viewsはここで通している
     ##path(route, view, kwargs=None, name=None)
 
     #どうにか反映させる方法はないのかなぁ
@@ -23,7 +23,7 @@ urlpatterns = [  # urlのパターンの入力
     # path('<int:question_id>/', views.result, name = 'result'),
     # path('<int:question_id>/', views.vote, name = 'vote')
 
-    path('<int:question_id>/', views.detail, name='detail'),
+    path('<int:pk>/', views.detail, name='detail'),
     # urlをpolls/specifics/12/ のように変更したいときには以下のようにする
     path('specifics/<int:question_id>/', views.detail, name='detail'),
     path('<int:question_id>/result/', views.result, name='result'),
