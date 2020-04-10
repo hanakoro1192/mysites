@@ -23,9 +23,14 @@ urlpatterns = [  # urlのパターンの入力
     # path('<int:question_id>/', views.result, name = 'result'),
     # path('<int:question_id>/', views.vote, name = 'vote')
 
-    path('<int:pk>/', views.detail, name='detail'),
-    # urlをpolls/specifics/12/ のように変更したいときには以下のようにする
-    path('specifics/<int:question_id>/', views.detail, name='detail'),
-    path('<int:question_id>/result/', views.result, name='result'),
-    path('<int:question_id>/vote/', views.vote, name='vote'),
+    # path('<int:pk>/', views.detail, name='detail'),
+    # # urlをpolls/specifics/12/ のように変更したいときには以下のようにする
+    # path('specifics/<int:question_id>/', views.detail, name='detail'),
+    # path('<int:question_id>/result/', views.result, name='result'),
+    # path('<int:question_id>/vote/', views.vote, name='vote'),
+
+    #as_viewは Djangoのビューの条件を満たす関数を生成しているだけ。極論を言えば条件満たせばなんでもいい
+    path('<int:pk>/', views.DetailView.as_view(), name='detail'),
+    path('<int:pk>/results/', views.ResultsView.as_view(), name='results'),
+    path('<int:question_id>/vote', views.vote)
 ]

@@ -27,6 +27,29 @@ class IndexView(generic.ListView):
     def get_queryset(self):
         return Question.object.order_by('pub_date')[:5]
 
+#オブジェクトの詳細ページを表示する
+class DetailView(generic.DetailView):
+    model = Question
+    template_name = 'polls/detail.html'
+
+class ResultsView(generic.DetailView):
+    model = Question
+    template_name = 'polls/results.html'
+
+    def vote(request, question_id):
+        question = get_object_or_404(Question, pk=question_id)
+        try:
+            selected_choice = question.choice_set.get(pk=request.POST['choice'])
+        except(KeyError.DoesNotExist):
+            return render(request, 'polls/detail.html', {
+                'question': question,
+                'error_message' : "You didn't select a choice.",
+            })
+        else:
+            selected_choice.votes += 1
+            selected_choice.save()
+            return HttpResponseRedirect(reverse('polls:results', args = (question_id)))
+
 
 
 
@@ -45,8 +68,8 @@ class IndexView(generic.ListView):
 #     return render(request, 'polls/index.html', content)
 
 
-def index(request, id):
-    return HttpResponse("最強くまさん" + str(id))
+# def index(request, id):
+#     return HttpResponse("最強くまさん" + str(id))
 
 # def unko(request):
 #     urlName = reverse("unko") #上でリバースを使っている
