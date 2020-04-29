@@ -49,6 +49,10 @@ class ResultsView(generic.DetailView):
             selected_choice.votes += 1
             selected_choice.save()
             return HttpResponseRedirect(reverse('polls:results', args = (question_id)))
+    
+    def result(request, question_id):
+        question = get_object_or_404(Question, pk=question_id)
+        return render(request, 'polls/results.html')
 
 
 
