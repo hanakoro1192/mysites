@@ -7,7 +7,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Zz5mpHdq8TodVdBnyPi1jDR3dx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,6 +61,7 @@
       <workItem from="1585829494569" duration="96000" />
       <workItem from="1585829692029" duration="116000" />
       <workItem from="1585830711329" duration="2142000" />
+      <workItem from="1588991090636" duration="21000" />
     </task>
     <servers />
   </component>
@@ -64,9 +69,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1585830714720">
+    <state x="320" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588991106884">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
+    <state x="320" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/0.23.1440.852@0.23.1440.852" timestamp="1588991106884" />
+    <state x="397" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1588991094425">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
     <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.852@0.23.1440.852" timestamp="1585830714720" />
+    <state x="397" y="273" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588991094425" />
   </component>
 </project>
