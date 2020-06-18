@@ -6,7 +6,7 @@ from django.utils import timezone
 
 #モデルはデータとロジックを作成するところ
 class Question(models.Model): #ここが投票項目
-    question_text = models.CharField(max_length = 200)
+    question_text = models.CharField(max_length=200)
     # unko = models.CharField(max_length = 100)
     pub_date = models.DateTimeField('date published') #公開日
     def __str__(self):

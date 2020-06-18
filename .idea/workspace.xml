@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68266a0d-bbb1-44b4-bc56-6f34925a33c7" name="Default Changelist" comment="" />
+    <list default="true" id="68266a0d-bbb1-44b4-bc56-6f34925a33c7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +35,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mysites.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -62,6 +69,12 @@
       <workItem from="1585829692029" duration="116000" />
       <workItem from="1585830711329" duration="2142000" />
       <workItem from="1588991090636" duration="21000" />
+      <workItem from="1589091144112" duration="50000" />
+      <workItem from="1589091205855" duration="436000" />
+      <workItem from="1590811714620" duration="11000" />
+      <workItem from="1592108599602" duration="536000" />
+      <workItem from="1592152894816" duration="769000" />
+      <workItem from="1592429369648" duration="4333000" />
     </task>
     <servers />
   </component>
@@ -69,14 +82,43 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588991106884">
+    <state x="320" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592108615057">
       <screen x="0" y="23" width="1440" height="852" />
     </state>
+    <state x="320" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.852/1440.23.1920.1057@0.23.1440.852" timestamp="1590811723961" />
+    <state x="320" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.852@0.23.1440.852" timestamp="1592108615057" />
     <state x="320" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.23.1920.1057/0.23.1440.852@0.23.1440.852" timestamp="1588991106884" />
-    <state x="397" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1588991094425">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="408" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1589091157509">
+      <screen x="0" y="23" width="1440" height="852" />
     </state>
-    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.852@0.23.1440.852" timestamp="1585830714720" />
+    <state x="408" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1440.23.1920.1057/0.23.1440.852@0.23.1440.852" timestamp="1589091157509" />
+    <state width="1878" height="547" key="GridCell.Tab.0.bottom" timestamp="1592430443625">
+      <screen x="1440" y="-418" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="547" key="GridCell.Tab.0.bottom/0.23.1440.852/1440.-418.1920.1057@1440.-418.1920.1057" timestamp="1592430443625" />
+    <state width="1398" height="222" key="GridCell.Tab.0.bottom/0.23.1440.852@0.23.1440.852" timestamp="1592108634308" />
+    <state width="1878" height="547" key="GridCell.Tab.0.center" timestamp="1592430443624">
+      <screen x="1440" y="-418" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="547" key="GridCell.Tab.0.center/0.23.1440.852/1440.-418.1920.1057@1440.-418.1920.1057" timestamp="1592430443624" />
+    <state width="1398" height="222" key="GridCell.Tab.0.center/0.23.1440.852@0.23.1440.852" timestamp="1592108634307" />
+    <state width="1878" height="547" key="GridCell.Tab.0.left" timestamp="1592430443623">
+      <screen x="1440" y="-418" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="547" key="GridCell.Tab.0.left/0.23.1440.852/1440.-418.1920.1057@1440.-418.1920.1057" timestamp="1592430443623" />
+    <state width="1398" height="222" key="GridCell.Tab.0.left/0.23.1440.852@0.23.1440.852" timestamp="1592108634307" />
+    <state width="1878" height="547" key="GridCell.Tab.0.right" timestamp="1592430443625">
+      <screen x="1440" y="-418" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="547" key="GridCell.Tab.0.right/0.23.1440.852/1440.-418.1920.1057@1440.-418.1920.1057" timestamp="1592430443625" />
+    <state width="1398" height="222" key="GridCell.Tab.0.right/0.23.1440.852@0.23.1440.852" timestamp="1592108634308" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1592429373283">
+      <screen x="0" y="23" width="1440" height="852" />
+    </state>
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.852/1440.-418.1920.1057@0.23.1440.852" timestamp="1592429373283" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.852@0.23.1440.852" timestamp="1592219064552" />
     <state x="397" y="273" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588991094425" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.852@0.23.1440.852" timestamp="1589091147768" />
+    <state x="1969" y="343" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.852@1440.23.1920.1057" timestamp="1589091217431" />
   </component>
 </project>

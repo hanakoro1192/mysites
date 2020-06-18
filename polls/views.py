@@ -8,6 +8,8 @@ from django.http.response import HttpResponse, HttpResponseRedirect
 
 from django.urls import reverse
 
+from django.utils import timezone
+
 # from django.template import loader
 
 from .models import Choice, Question
@@ -25,7 +27,10 @@ class IndexView(generic.ListView):
     content_object_name = 'latest_question_list'
 
     def get_queryset(self):
-        return Question.object.order_by('pub_date')[:5]
+        # return Question.object.order_by('pub_date')[:5]
+        return Question.objects.filter(
+            pub_date__lte=timezone.now()
+        ).order_by('-pub_date')[:5]
 
 #オブジェクトの詳細ページを表示する
 class DetailView(generic.DetailView):
@@ -52,9 +57,7 @@ class ResultsView(generic.DetailView):
     
     def result(request, question_id):
         question = get_object_or_404(Question, pk=question_id)
-        return render(request, 'polls/results.html')
-
-
+        return render(request, 'polls/results.html',{'question': question})
 
 
 # def kumasan(request):  # ここで書いているrequestは何？
@@ -115,8 +118,6 @@ class ResultsView(generic.DetailView):
 #         selected_choice.votes += 1
 #         selected_choice.save()
 #         return HttpResponseRedirect(reverse('polls:results', args=(question_id)))
-        
-
 
 # def index(request):
 #     return HttpResponse("Hello, world. You're at the polls index.")
