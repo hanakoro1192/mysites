@@ -2,16 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68266a0d-bbb1-44b4-bc56-6f34925a33c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysites/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysites/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -74,7 +96,9 @@
       <workItem from="1590811714620" duration="11000" />
       <workItem from="1592108599602" duration="536000" />
       <workItem from="1592152894816" duration="769000" />
-      <workItem from="1592429369648" duration="4333000" />
+      <workItem from="1592429369648" duration="5201000" />
+      <workItem from="1592559443647" duration="34000" />
+      <workItem from="1592570988309" duration="9864000" />
     </task>
     <servers />
   </component>
@@ -112,11 +136,12 @@
     </state>
     <state width="1878" height="547" key="GridCell.Tab.0.right/0.23.1440.852/1440.-418.1920.1057@1440.-418.1920.1057" timestamp="1592430443625" />
     <state width="1398" height="222" key="GridCell.Tab.0.right/0.23.1440.852@0.23.1440.852" timestamp="1592108634308" />
-    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1592429373283">
-      <screen x="0" y="23" width="1440" height="852" />
+    <state x="397" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1592570991807">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.852/1440.-418.1920.1057@0.23.1440.852" timestamp="1592429373283" />
-    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.852@0.23.1440.852" timestamp="1592219064552" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.852@0.23.1440.852" timestamp="1592559449237" />
+    <state x="397" y="289" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.-418.1920.1032@0.23.1440.877" timestamp="1592570991807" />
     <state x="397" y="273" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588991094425" />
     <state x="397" y="281" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.852@0.23.1440.852" timestamp="1589091147768" />
     <state x="1969" y="343" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.852@1440.23.1920.1057" timestamp="1589091217431" />
