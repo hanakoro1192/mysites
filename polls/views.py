@@ -20,14 +20,20 @@ from django.shortcuts import get_object_or_404, render
 
 from django.views import generic  # ここでは凡用ビューを用いる
 
+from django.utils import timezone
+
 
 class IndexView(generic.ListView):
     template_name = 'polls/index.html'
     content_object_name = 'latest_question_list'
 
-    #
+    # pub_date__lteって何？　Question.objects.filter(pub_date__lte=timezone.now()) は、pub_date が timezone.now 以前の Question
+    # を含んだクエリセットを返す
     def get_queryset(self):
-        return Question.objects.order_by('-pub_date')[:5]
+        # return Question.objects.order_by('-pub_date')[:5]
+        return Question.objects.filter(
+            pub_date__lte=timezone.now()
+        ).order_by('-pub_date')[:5]
 
 
 #         return Question.objects.filter(
@@ -39,6 +45,9 @@ class IndexView(generic.ListView):
 class DetailView(generic.DetailView):
     model = Question
     template_name = 'polls/detail.html'
+
+    def get_queryset(self):
+        return Question.objects.filter(pub_date__lte=timezone.now())
 
 
 #

@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68266a0d-bbb1-44b4-bc56-6f34925a33c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysites/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysites/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +26,16 @@
     <expand />
     <select />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Public Environment File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -41,7 +43,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -49,6 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="mysites" type="Python.DjangoServer" factoryName="Django server">
@@ -98,12 +100,14 @@
       <workItem from="1592152894816" duration="769000" />
       <workItem from="1592429369648" duration="5201000" />
       <workItem from="1592559443647" duration="34000" />
-      <workItem from="1592570988309" duration="9864000" />
+      <workItem from="1592570988309" duration="10033000" />
+      <workItem from="1592835217321" duration="470000" />
+      <workItem from="1592835803591" duration="4399000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592108615057">
@@ -136,14 +140,19 @@
     </state>
     <state width="1878" height="547" key="GridCell.Tab.0.right/0.23.1440.852/1440.-418.1920.1057@1440.-418.1920.1057" timestamp="1592430443625" />
     <state width="1398" height="222" key="GridCell.Tab.0.right/0.23.1440.852@0.23.1440.852" timestamp="1592108634308" />
-    <state x="397" y="289" key="com.intellij.ide.util.TipDialog" timestamp="1592570991807">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="1969" y="-97" key="com.intellij.ide.util.TipDialog" timestamp="1592835221256">
+      <screen x="1440" y="-418" width="1920" height="1057" />
     </state>
     <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.852/1440.-418.1920.1057@0.23.1440.852" timestamp="1592429373283" />
+    <state x="1969" y="-97" key="com.intellij.ide.util.TipDialog/0.23.1440.852/1440.-418.1920.1057@1440.-418.1920.1057" timestamp="1592835221256" />
     <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.852@0.23.1440.852" timestamp="1592559449237" />
     <state x="397" y="289" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.-418.1920.1032@0.23.1440.877" timestamp="1592570991807" />
     <state x="397" y="273" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588991094425" />
     <state x="397" y="281" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.852@0.23.1440.852" timestamp="1589091147768" />
     <state x="1969" y="343" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.852@1440.23.1920.1057" timestamp="1589091217431" />
+    <state x="2065" y="-183" width="670" height="676" key="search.everywhere.popup" timestamp="1592840737229">
+      <screen x="1440" y="-418" width="1920" height="1057" />
+    </state>
+    <state x="2065" y="-183" width="670" height="676" key="search.everywhere.popup/0.23.1440.852/1440.-418.1920.1057@1440.-418.1920.1057" timestamp="1592840737229" />
   </component>
 </project>
