@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68266a0d-bbb1-44b4-bc56-6f34925a33c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/polls/templates/polls/results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysites/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysites/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polls/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polls/templates/polls/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Public Environment File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,6 +54,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -103,6 +112,7 @@
       <workItem from="1592570988309" duration="10033000" />
       <workItem from="1592835217321" duration="470000" />
       <workItem from="1592835803591" duration="4399000" />
+      <workItem from="1592921982927" duration="6213000" />
     </task>
     <servers />
   </component>
@@ -150,9 +160,11 @@
     <state x="397" y="273" key="com.intellij.ide.util.TipDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1588991094425" />
     <state x="397" y="281" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.852@0.23.1440.852" timestamp="1589091147768" />
     <state x="1969" y="343" key="com.intellij.ide.util.TipDialog/1440.23.1920.1057/0.23.1440.852@1440.23.1920.1057" timestamp="1589091217431" />
-    <state x="2065" y="-183" width="670" height="676" key="search.everywhere.popup" timestamp="1592840737229">
-      <screen x="1440" y="-418" width="1920" height="1057" />
+    <state x="2065" y="-189" width="894" height="661" key="search.everywhere.popup" timestamp="1592930283061">
+      <screen x="1440" y="-418" width="1920" height="1032" />
     </state>
     <state x="2065" y="-183" width="670" height="676" key="search.everywhere.popup/0.23.1440.852/1440.-418.1920.1057@1440.-418.1920.1057" timestamp="1592840737229" />
+    <state x="469" y="218" width="670" height="561" key="search.everywhere.popup/0.23.1440.877/1440.-418.1920.1032@0.23.1440.877" timestamp="1592924299833" />
+    <state x="2065" y="-189" width="894" height="661" key="search.everywhere.popup/0.23.1440.877/1440.-418.1920.1032@1440.-418.1920.1032" timestamp="1592930283061" />
   </component>
 </project>

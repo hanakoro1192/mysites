@@ -20,7 +20,7 @@ from django.contrib import admin
 # from polls.views import SampleTemplateView
 
 urlpatterns = [
-    url(r'^polls/kasai/', include('polls.urls')),  # polls/kasai/urls.pyを参照しろという意味
+    url(r'^polls/', include('polls.urls')),  # polls/urls.pyを参照しろという意味
     url(r'^admin/', admin.site.urls),  # 管理者画面でのurlとなる
     # url(r'^sample$', SampleTemplateView.as_view())
 ]
